@@ -1,0 +1,57 @@
+.navbar{
+    background-color: #c69963;
+    height: 50px;
+}
+h6{
+    color: #c69963;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+.navbar-toggler-icon{
+    width: 40px;
+}
+.sec1{
+    height: 543px;
+}
+.sec1-bg1{
+    background-image: linear-gradient(rgba(16, 29, 44, 0.83), rgba(16, 29, 44, 0.83)), url("images/img1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec1-bg2{
+    background-color: #101d2c;
+}
+.logo1{
+    height: 30px;
+    width: 120px;
+}
+.row1{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.btn-primary{
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #c69963;
+    padding: 10px 25px;
+    border: 0px;
+}
+.color-white{
+    color: white;
+}
+.line1{
+    height: 1px;
+
+    color: #aaa;
+    width: auto;
+}
+.line2{
+    height: 1px;
+    padding-right: 50px;
+    color: #aaa;
+    width: auto;
+}
