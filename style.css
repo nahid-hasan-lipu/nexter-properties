@@ -3,6 +3,28 @@
     height: 50px;
     padding: 0;
 }
+@media screen and (min-width: 1000px) {
+    .navbar {
+      width: 80px;
+      height: 100%;
+      position: fixed;
+      left: 0px;
+      z-index: 10;
+    }
+    .navbar-toggler-icon{
+        width: 40px;
+        position: relative;
+        left: -5px;   
+        top: -300px; 
+    }
+    body{
+        padding-left: 81px;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+}
+
 h6{
     color: #c69963;
 }
@@ -29,6 +51,8 @@ h1{
 .sec1-bg2-margin{
     margin-top: auto;
     margin-bottom: auto;
+    position: relative;
+    left: -10px;
 }
 .logo1{
     height: 25px;
@@ -68,6 +92,9 @@ h1{
 .img-alignment img{
     width: 80%;
     height: 80%;
+    position: relative;
+    right: -10px;
+    top: -5px;
 }
 .flexbox-item img{
     width: 70%;
@@ -124,9 +151,7 @@ h3{
     color: white;
     font-size: 14px;
     text-align: center;
-    padding: 15px;
-    position: relative;
-    top: -20%;
+    padding: 20px;
     font-family: 'Josefin Sans', sans-serif;
 }
 .little-marks{
@@ -138,10 +163,6 @@ h3{
     color: #c69963;
     padding-bottom: 15px;
 }
-.icon-position{
-    position: relative;
-    top: -10%;
-}
 .btn-secondary{
     text-align: center;
     font-size: 13px;
@@ -149,14 +170,9 @@ h3{
     background-color: #c69963;
     padding: 15px 40px;
     border: 0px;
-    position: relative;
-    top: -10%;
 }
 .btn-secondary:hover{
     background-color: #b3834a;
-}
-.card-alignment{
-    padding: 0% 2%;
 }
 *,
 *::before,
@@ -306,12 +322,15 @@ h3{
     background-image: url("images/grid-image/gal-14.jpeg");
 }
 .container-4{
-    display: flex;
-    flex-wrap: wrap;
+    padding-left: 10px;
     height: 380px;
     width: 100%;
     background-color: #101d2c;
-    justify-content: center;
+}
+.container-4 .container{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0;
 }
 .button-design a{
     color: #6D5D4B;
@@ -320,6 +339,7 @@ h3{
     font-size: medium;
 }
 .footer-para{
+    padding-top: 120px;
     color: #6D5D4B;
     font-size: small;
     text-align: center;
